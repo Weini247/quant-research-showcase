@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="An independent quantitative research program connecting market data, scientific validation and machine learning. Public overview and synthetic demonstration." />
+  <meta property="og:title" content="Quant Research Lab | Research, rigor, implementation" />
+  <meta property="og:description" content="A transparent project roadmap toward a reproducible quantitative ML research platform." />
+  <title>Quant Research Lab — Project Overview</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Quant Research Lab home">
+        <span class="brand-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>QUANT <span class="brand-dim">/ RESEARCH LAB</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#evidence">Evidence</a>
+        <a class="github-link" href="https://github.com/Weini247" rel="noopener noreferrer" target="_blank">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="top">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> INDEPENDENT RESEARCH PROGRAM <span class="eyebrow-sep">/</span> PUBLIC SHOWCASE</p>
+        <h1>From market data<br>to <em>defensible</em> decisions.</h1>
+        <p class="lead">Designing a reproducible quantitative-finance and machine-learning research environment — where every model, experiment and trading claim is accountable to evidence.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#roadmap">Explore the roadmap <span aria-hidden="true">↗</span></a>
+          <a class="text-button" href="#evidence">What is verified? <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="hero-footnote">Research & system design phase. No deployed strategy, reported trading performance or live execution.</p>
+      </div>
+      <div class="hero-visual" aria-label="Stylized system illustration showing the research process, not live market data">
+        <div class="visual-topline"><span>RESEARCH SYSTEM / CONCEPT</span><span>v0.x</span></div>
+        <svg viewBox="0 0 540 330" role="img" aria-label="Diagram linking measurement, inference, decisions and validation" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="halo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9bdcce" stop-opacity=".3"/><stop offset="1" stop-color="#9bdcce" stop-opacity="0"/></linearGradient></defs>
+          <g stroke="#273d3e" stroke-width="1" fill="none"><path d="M0 55H540M0 110H540M0 165H540M0 220H540M0 275H540M54 0V330M108 0V330M162 0V330M216 0V330M270 0V330M324 0V330M378 0V330M432 0V330M486 0V330"/></g>
+          <circle cx="268" cy="155" r="125" fill="url(#halo)"/>
+          <g stroke="#87cbba" stroke-width="1.4" fill="none" opacity=".65"><path d="M144 150H216"/><path d="M324 150H398"/><path d="M270 105V58"/><path d="M270 204V262"/><path d="M216 150l-8-5v10z" fill="#87cbba"/><path d="M397 150l-8-5v10z" fill="#87cbba"/></g>
+          <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="1">
+          <rect x="7" y="126" width="137" height="49" rx="9" fill="#15282a" stroke="#355456"/><text x="75" y="155" fill="#c3d2cc">MEASUREMENT</text>
+          <rect x="398" y="126" width="135" height="49" rx="9" fill="#15282a" stroke="#355456"/><text x="465" y="155" fill="#c3d2cc">DECISIONS</text>
+          <rect x="211" y="13" width="118" height="45" rx="9" fill="#15282a" stroke="#355456"/><text x="270" y="40" fill="#c3d2cc">HYPOTHESES</text>
+          <rect x="211" y="262" width="118" height="45" rx="9" fill="#15282a" stroke="#355456"/><text x="270" y="289" fill="#c3d2cc">VALIDATION</text>
+          <circle cx="270" cy="154" r="57" fill="#1c3637" stroke="#91d9c8" stroke-width="1.5"/><circle cx="270" cy="154" r="47" fill="none" stroke="#6da998" stroke-opacity=".4" stroke-dasharray="3 5"/><text x="270" y="150" fill="#e0eee7" font-size="14">INFERENCE</text><text x="270" y="170" fill="#8dd8c6" font-size="9">STATISTICS / ML</text>
+          </g>
+          <g fill="#a0e3d4"><circle cx="151" cy="150" r="3"/><circle cx="383" cy="150" r="3"/><circle cx="270" cy="81" r="3"/><circle cx="270" cy="236" r="3"/></g>
+        </svg>
+        <div class="visual-bottom"><span><i class="legend-square"></i> SCIENTIFIC WORKFLOW</span><span>ILLUSTRATIVE / NO MARKET DATA</span></div>
+      </div>
+    </section>
+
+    <section id="overview" class="container section overview">
+      <div class="section-heading"><p class="eyebrow">01 / CURRENT POSITION</p><h2>A research program, <em>not yet</em> a trading system.</h2><p>The foundation is substantially specified. Real-data diagnostics, models, backtests and live operations have not started.</p></div>
+      <div class="stats-grid">
+        <article class="stat-card"><span class="stat-id">DESIGN</span><div class="stat-head">Research foundation</div><div class="stat-value">Established</div><p>Scientific methodology and target architecture documented.</p></article>
+        <article class="stat-card"><span class="stat-id">PILOT</span><div class="stat-head">Measurement contract</div><div class="stat-value">Specified</div><p>Two-instrument historical diagnostic; activation conditions open.</p></article>
+        <article class="stat-card"><span class="stat-id">IMPLEMENTATION</span><div class="stat-head">Quant backend / ML</div><div class="stat-value">Not started</div><p>No trained models, backtest results or live execution.</p></article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="container section roadmap-section">
+      <div class="section-heading split-heading"><div><p class="eyebrow">02 / THE PROJECT LADDER</p><h2>One path. <em>Explicit milestones.</em></h2></div><p>Follow the project from scientific foundations through measurement, modeling and validation toward its long-term research northstar. Select any milestone for details.</p></div>
+      <div class="roadmap-layout">
+        <ol id="roadmap-list" class="timeline" aria-label="Project milestones">
+          <li><button type="button" class="stage is-selected" data-stage="foundation"><span class="stage-index">01</span><span class="stage-text"><strong>Research foundation</strong><small>Finance · statistics · falsification</small></span><span class="state state-designed">DESIGNED</span></button></li>
+          <li><button type="button" class="stage" data-stage="contract"><span class="stage-index">02</span><span class="stage-text"><strong>First diagnostic contract</strong><small>AAPL/MSFT · historical measurement</small></span><span class="state state-conditional">CONDITIONAL</span></button></li>
+          <li><button type="button" class="stage" data-stage="data"><span class="stage-index">03</span><span class="stage-text"><strong>Data & accounting core</strong><small>Python · input checks · synthetic tests</small></span><span class="state state-next">NEXT</span></button></li>
+          <li><button type="button" class="stage" data-stage="ennead"><span class="stage-index">04</span><span class="stage-text"><strong>ENNEAD workbench</strong><small>Datasets · experiments · visualization</small></span><span class="state">PLANNED</span></button></li>
+          <li><button type="button" class="stage" data-stage="ml"><span class="stage-index">05</span><span class="stage-text"><strong>ML research</strong><small>Baselines · features · models</small></span><span class="state">PLANNED</span></button></li>
+          <li><button type="button" class="stage" data-stage="strategies"><span class="stage-index">06</span><span class="stage-text"><strong>Strategy research</strong><small>Mechanisms · policies · portfolios</small></span><span class="state">PLANNED</span></button></li>
+          <li><button type="button" class="stage" data-stage="validation"><span class="stage-index">07</span><span class="stage-text"><strong>Independent validation</strong><small>Out-of-sample · robustness · costs</small></span><span class="state">PLANNED</span></button></li>
+          <li><button type="button" class="stage" data-stage="paper"><span class="stage-index">08</span><span class="stage-text"><strong>Paper operations</strong><small>Live feeds · simulated orders</small></span><span class="state">CONDITIONAL</span></button></li>
+          <li><button type="button" class="stage" data-stage="northstar"><span class="stage-index stage-northstar">★</span><span class="stage-text"><strong>Research northstar</strong><small>Continuously evaluated, evolvable system</small></span><span class="state state-northstar">VISION</span></button></li>
+        </ol>
+        <aside class="stage-detail" id="stage-detail" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="detail-label">MILESTONE 01 / DESIGNED</p><h3 id="detail-title">Research foundation</h3><p id="detail-body">A documented research architecture: quantitative finance, validation principles, experimental governance and a staged path toward empirical work.</p><div class="detail-divider"></div><p class="detail-key">PUBLIC EVIDENCE</p><p id="detail-evidence">High-level architecture and project roadmap. Internal specifications remain private.</p><p class="detail-key">NEXT ACCEPTANCE CONDITION</p><p id="detail-next">Continue with the bounded diagnostic and its explicitly unresolved access requirements.</p></aside>
+      </div>
+    </section>
+
+    <section id="architecture" class="container section architecture-section">
+      <div class="section-heading"><p class="eyebrow">03 / SYSTEM DESIGN</p><h2>Scientific logic first. <em>Interface second.</em></h2><p>ENNEAD is envisioned as the human-facing research workbench. A standalone Python core remains independently testable and reproducible.</p></div>
+      <div class="architecture-grid">
+        <div class="architecture-card"><div class="arch-index">LAYER 01</div><h3>ENNEAD · Workbench</h3><p>Research navigation, dataset inspections, model configuration, experiments and results.</p><span>STATUS / PLANNED INTEGRATION</span></div>
+        <div class="arch-link" aria-hidden="true">↕</div>
+        <div class="architecture-card"><div class="arch-index">LAYER 02</div><h3>Quant · Python core</h3><p>Data checks, transformations, accounting, modeling and statistical validation — runnable without the UI.</p><span>STATUS / DESIGN STAGE</span></div>
+        <div class="arch-link" aria-hidden="true">↕</div>
+        <div class="architecture-card"><div class="arch-index">LAYER 03</div><h3>Data · Evidence</h3><p>Authorized data sources, immutable run records, test fixtures and reproducible reports.</p><span>STATUS / DATA ACCESS OPEN</span></div>
+      </div>
+    </section>
+
+    <section id="evidence" class="container section evidence-section">
+      <div class="section-heading"><p class="eyebrow">04 / CLAIMS & BOUNDARIES</p><h2>Ambition is not <em>evidence.</em></h2><p>The public surface deliberately separates what has been specified from what has been implemented or validated.</p></div>
+      <div class="evidence-grid">
+        <div class="evidence-card"><span class="symbol-check">✓</span><h3>Documented today</h3><ul><li>Independent research architecture</li><li>Bounded historical measurement scope</li><li>Conditional pilot specification</li><li>Public synthetic accounting demonstration</li></ul></div>
+        <div class="evidence-card"><span class="symbol-open">↗</span><h3>Work ahead</h3><ul><li>Actual data-access evidence</li><li>Licensed market-data diagnostics</li><li>ML training and evaluation</li><li>Backtesting, paper trading and live-readiness assessment</li></ul></div>
+      </div>
+      <p class="disclosure">This page contains no investment advice, trading signals, proprietary research parameters, licensed market data or performance claims. Illustrations are conceptual; any included computational examples use synthetic values.</p>
+    </section>
+
+    <section class="container section closing"><p class="eyebrow">THE NORTHSTAR</p><h2>An independently reproducible research system that can <em>earn</em> confidence in its conclusions.</h2><div class="closing-row"><span>Currently: pre-empirical / diagnostic activation pending</span><a href="https://github.com/Weini247" target="_blank" rel="noopener noreferrer">Explore public work ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>QUANT / RESEARCH LAB</span><span>Public research showcase · Updated October 2026</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
