@@ -1,37 +1,7 @@
-# Publication and maintenance
+# Release and maintenance
 
-This is the **public, curated** Quant Research Lab showcase associated with [Weini247](https://github.com/Weini247).
+Release 2.1 is limited to the ECB-derived FX development case study and independent synthetic software. The release continues the existing public repository history. It assigns no new open-source licence and does not authorize disclosure of private research objects or excluded source material.
 
-## Website
+The static project site is [Quant Research Lab](https://weini247.github.io/quant-research-showcase/). Publication, CI and Pages deployment are distinct events; current deployment state is reported by GitHub, not inferred from local tests. All assets are local and require no analytics, external font service or live data connection.
 
-The static site is already stored in `index.html`. To serve it using GitHub Pages:
-
-1. Open repository **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch `main`, directory `/(root)`, and save.
-4. Once Pages reports a successful deployment, the expected public URL is `https://weini247.github.io/quant-research-showcase/`.
-
-The page uses no analytics, credentials, trading API or live data.
-
-## Local verification
-
-Run from repository root:
-
-```bash
-python examples/synthetic_accounting/demo.py
-python -m unittest discover -s examples/synthetic_accounting -p 'test_*.py' -v
-```
-
-The Python demonstration uses fictional securities and exact decimal arithmetic. GitHub Actions is configured to repeat its automated tests.
-
-## Update discipline
-
-- Review the public disclosure policy before every release.
-- Publish no private research code, proprietary signals, licensed raw market data or credentials.
-- Clearly distinguish designed components, implemented demonstrations and validated empirical results.
-- Do not state that a trading strategy is profitable or deployed without independent evidence.
-- Screen ENNEAD screenshots for filenames, user identifiers, account details and research secrets.
-
-## Optional GitHub profile README
-
-Copy `profile/README.md` to the root of a separate public `Weini247/Weini247` repository when you're ready to present an account-level portfolio. This step is **not** completed by this showcase publication.
+Use `python verify_public_manifest.py` to check exact file bytes. Run the public tests and [figure reproduction](../research/fx-development/README.md) before future updates. Never merge, cherry-pick, reference or upload private Git history. Preserve the reviewed data and IP scope.

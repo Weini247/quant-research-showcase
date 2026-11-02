@@ -1,0 +1,233 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 231,
+      "sha256": "d535b1aa9c943a16cc10c4141b520fef38752db22595df96e0a957e18d669179"
+    },
+    ".github/workflows/tests.yml": {
+      "bytes": 749,
+      "sha256": "4017656ba34dc2c878042a2f33c861c17bf938362aec6544c0f786eb6027f199"
+    },
+    ".gitignore": {
+      "bytes": 350,
+      "sha256": "9c993c32f397d811142896eb1010b3c9c45cde93bbccdae5a0921cad71394c93"
+    },
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 2970,
+      "sha256": "d824b0ebed51885932efebe73f6c9f7875d320bd33e62ae78076416eee5d3029"
+    },
+    "assets/favicon.svg": {
+      "bytes": 315,
+      "sha256": "8f8157e921d690d3b32358bd10a45666624b6acf114277a8c67d339e9f23f0ee"
+    },
+    "assets/fx-data.js": {
+      "bytes": 7361,
+      "sha256": "bcd8367b6fd4827d6995742eeae2cd3ef621a18eabe055e8deac91f78b2f6e48"
+    },
+    "assets/fx.css": {
+      "bytes": 6491,
+      "sha256": "77d89cfb151bbfd348afdb62c59eb20489a848ee3f07da556f31ec857462fcee"
+    },
+    "assets/fx.js": {
+      "bytes": 2776,
+      "sha256": "4b46a12c317f4d0da8f2fed8e10a4745effc099f0d6e7f9bf05fb4768d11e3f3"
+    },
+    "assets/research-cycle.svg": {
+      "bytes": 2118,
+      "sha256": "ae9a23a512b113f22f39157c729071238cbefe52eaeb08e32d5cfb251ac69a29"
+    },
+    "assets/styles.css": {
+      "bytes": 7706,
+      "sha256": "da2e57f912b44fd8dabfe297b3fa33abcd6a56fcfb1734263e3da253da9a51df"
+    },
+    "docs/ARCHITECTURE.md": {
+      "bytes": 825,
+      "sha256": "edd15f6878b61181d4e50a872b8402de0942f25a0a0803a8d36f0d62bc9deb63"
+    },
+    "docs/DATA_LICENSING.md": {
+      "bytes": 1462,
+      "sha256": "813a3ad8e8cdcd3101a2790d927a321ec5c15f197f477b379b88196693a9dc69"
+    },
+    "docs/METHODS.md": {
+      "bytes": 1257,
+      "sha256": "2e7cd365ea9dbb26fb076e7aba6c9cd17fd0c4ca07ac4d43ac4983b32cbce4e3"
+    },
+    "docs/PUBLIC_DISCLOSURE.md": {
+      "bytes": 1305,
+      "sha256": "b047d3042379efe9037ef002ad0298a502e3ed7e38a76db732772f6e20294d78"
+    },
+    "docs/PUBLISHING.md": {
+      "bytes": 946,
+      "sha256": "dad36d022f2ac90691e80ff4b4842e723a1425ef1c1170e2fd3f1b9431b795f1"
+    },
+    "docs/REFERENCES.md": {
+      "bytes": 1092,
+      "sha256": "0fa62ed1d71ffe741fb3fc58d52a4f295fead93d312684e89d62c0e34f502fbf"
+    },
+    "docs/RELEASES.md": {
+      "bytes": 743,
+      "sha256": "18cd636e017411dcf950deb73a42301657b151a65b287cec794f0b9f6c6019ff"
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "bytes": 1244,
+      "sha256": "b61c488e7d4cb67562adf2594c98a0fb325fe50692a06b8225f2af2dab0dbe79"
+    },
+    "docs/RESEARCH_PRINCIPLES.md": {
+      "bytes": 878,
+      "sha256": "98cbf35315435c442d00341d713dc747624990f55ea891d807bf6747c2ca8dc9"
+    },
+    "docs/ROADMAP.md": {
+      "bytes": 870,
+      "sha256": "90a507a66da4a1458ea9a5871c99c5ece57a2f4d2746be9722e6db4ba3b29ead"
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "bytes": 2872,
+      "sha256": "a13571ad25ce7ff42c378f9c1723060418ca7974bfe86a6522d7695206fd9ff5"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 1612,
+      "sha256": "f5da8e7bb9baef61fa83d3a849a13e4d4cc0ccf7ef7e5c2480d0e4ea40ffdad5"
+    },
+    "examples/synthetic_accounting/README.md": {
+      "bytes": 1090,
+      "sha256": "79a628fcc09cc9279c818830f0c5c57fbb9b32e34066fa6f414f68b02f95d4e3"
+    },
+    "examples/synthetic_accounting/accounting.py": {
+      "bytes": 3069,
+      "sha256": "a15a6a2c717411ad313fae5c1aee961bd98e3a329bca12f11d3d681e043ebdf2"
+    },
+    "examples/synthetic_accounting/demo.py": {
+      "bytes": 1020,
+      "sha256": "879baa65ca227d76ad4832221738275f2bdbb445374caf1ec2da440a263ec33c"
+    },
+    "examples/synthetic_accounting/test_accounting.py": {
+      "bytes": 2796,
+      "sha256": "8a321b49cba24976abce6f08d217065a880ab387bbd56836951486704ddaa14d"
+    },
+    "fx-development.html": {
+      "bytes": 19641,
+      "sha256": "482da28df44f71488d353f92acf4bffea3a3c055bf28521cb90613214f3b0681"
+    },
+    "index.html": {
+      "bytes": 6303,
+      "sha256": "0a99a5a79639826d086f9a5e40532fd8d914db4e6379fcafcec056240f2dd179"
+    },
+    "profile/README.md": {
+      "bytes": 689,
+      "sha256": "83ce71532ef210beb168474b2d25020572909598a12d5900f75db184238bf80b"
+    },
+    "research/fx-development/CASE_STUDY.md": {
+      "bytes": 10617,
+      "sha256": "2425d36ea705bce8b3de4c14592c935667eb24c7e08e86dc512dfa87892f84e8"
+    },
+    "research/fx-development/README.md": {
+      "bytes": 3511,
+      "sha256": "616dbe90d7ed7fb236fc904950cd1b404906993f953068fdf5694bc361892e11"
+    },
+    "research/fx-development/aggregates.json": {
+      "bytes": 133516,
+      "sha256": "d402b3df16cf0fd741ea2ff624bceb2c6fb9742f64f444e1dc626962eb3de21c"
+    },
+    "research/fx-development/figures/F1-model-performance.png": {
+      "bytes": 85170,
+      "sha256": "f0c4c1e0b453b56a46872e656105929f76ddac3a02aee8e1a1b1b1ebd535aed0"
+    },
+    "research/fx-development/figures/F1-model-performance.svg": {
+      "bytes": 22850,
+      "sha256": "17d6f2482321243b8617a877711bcb570428982dc0b2551348bffbe0d0ca476b"
+    },
+    "research/fx-development/figures/F2-failure-landscape.png": {
+      "bytes": 298655,
+      "sha256": "435063d52e0721161f71b925da807aeabfa2310f0c2c96fc987056e56ef7a186"
+    },
+    "research/fx-development/figures/F2-failure-landscape.svg": {
+      "bytes": 123418,
+      "sha256": "e4552f02d623e5004503a2f1c491d0669ffacc15fef34b5b77916e94496c7290"
+    },
+    "research/fx-development/figures/F3-probabilistic-quality.png": {
+      "bytes": 270148,
+      "sha256": "cd0b5193f23851e5fcf1d695595927bce1a6a5419f5a1cff9bc5ba29e9d5aee7"
+    },
+    "research/fx-development/figures/F3-probabilistic-quality.svg": {
+      "bytes": 71026,
+      "sha256": "46c39040a7e3059a3228de6af4e93fd336a5703ab43ea4d63c927eb00fe658e5"
+    },
+    "research/fx-development/figures/F4-grouping-ablation.png": {
+      "bytes": 62464,
+      "sha256": "38fc010fc2226a0701e2e33f5aa6a17deae1fe908d0f37048b90b09799db9321"
+    },
+    "research/fx-development/figures/F4-grouping-ablation.svg": {
+      "bytes": 11692,
+      "sha256": "7cf614d24a7147d07d731aca3ffdfecd5b2b71d22b37cc5ca0f2b0c72d9664cf"
+    },
+    "research/fx-development/figures/F5-computational-profile.png": {
+      "bytes": 106608,
+      "sha256": "a8b0c7ce9c9111adeaf2fed4f265ee86eda96406f1663559827657da3ea8b2e4"
+    },
+    "research/fx-development/figures/F5-computational-profile.svg": {
+      "bytes": 34045,
+      "sha256": "a5612f1cd9afbe7397b78bded205c3b70e2d96e41ab13e3c8fac88fa512d1a2e"
+    },
+    "research/fx-development/figures/F6-reproducibility-pipeline.png": {
+      "bytes": 145275,
+      "sha256": "7966c0f3b9ba75ed3350b3a204404c88949c11a954ee914144a85d76c12c684a"
+    },
+    "research/fx-development/figures/F6-reproducibility-pipeline.svg": {
+      "bytes": 18117,
+      "sha256": "1f821187e7e25a2819935bf1b28cc19bffa390a943f0bcf52219d4231b1d054d"
+    },
+    "research/fx-development/render_figures.py": {
+      "bytes": 10528,
+      "sha256": "b91656f0e4bf528988b9b2d4dc5db8499dadd5b88388ae86cfd3755efb14d1fe"
+    },
+    "research/fx-development/requirements.txt": {
+      "bytes": 283,
+      "sha256": "40bd0fef5f1a65340b6cf4b637565f1f7e97b6ba888f5939a03ae84d4f2c0a1c"
+    },
+    "research/fx-development/tables/index.html": {
+      "bytes": 895,
+      "sha256": "17c6baaf92b8610dd823881e8c1aa6a89fe0d63cf6149cc007cb94cf35e87a4b"
+    },
+    "research/fx-development/tables/paired-intervals.csv": {
+      "bytes": 2693,
+      "sha256": "2b6d2c43201cf353a9842d05c877f910db3775299e54cd03f82e77845a211f1a"
+    },
+    "research/fx-development/tables/point-performance.csv": {
+      "bytes": 769,
+      "sha256": "39f3d89a7de78709086f08fd54a909e9a545885c853a1cb6cec18e104c994f69"
+    },
+    "research/fx-development/tables/probabilistic-quality.csv": {
+      "bytes": 2882,
+      "sha256": "72533e85ef06b5dccbbf34e678d1b8828abfbe8ca1cd36a7e5c00f4154384262"
+    },
+    "research/fx-development/tables/quarterly-landscape.csv": {
+      "bytes": 23520,
+      "sha256": "729faf36e182f139fdf388b3ccddfa6a11d15539cbb7e7da5bb201dff8aa3051"
+    },
+    "research/fx-development/tables/resources.csv": {
+      "bytes": 309,
+      "sha256": "9611a326edc2266db27ac150137a80aafbc84a40b3e9c6ee2df97016f28969a9"
+    },
+    "research/fx-development/test_aggregates.py": {
+      "bytes": 4263,
+      "sha256": "0a012a44ab16c513900116934c3033f7534bfbbcf92bd7b6cebdafb09cccecd7"
+    },
+    "research/fx-development/test_release.py": {
+      "bytes": 1669,
+      "sha256": "e4af2d8e2c863c506a10584c89f410ad080280e99e44fd3ca9fe148928c2a997"
+    },
+    "verify_public_manifest.py": {
+      "bytes": 1247,
+      "sha256": "c5551396e89af8048b544f68bf9e5146687c85cd5178ade48a8afb8a0986002e"
+    }
+  },
+  "release": "2.1",
+  "schema_version": 1,
+  "scope": "ECB-derived FX development aggregates and independent synthetic software",
+  "self_excluded": true,
+  "status": "RELEASE_V2_1"
+}

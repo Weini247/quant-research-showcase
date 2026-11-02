@@ -1,0 +1,4 @@
+# Preserve exact reviewed release and graphic bytes.
+* -text whitespace=cr-at-eol
+# Matplotlib path serialization contains intentional trailing spaces; keep fixed figure bytes.
+research/fx-development/figures/*.svg -whitespace

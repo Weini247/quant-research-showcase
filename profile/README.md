@@ -1,17 +1,7 @@
-# Computational Physics · Scientific Computing · Machine Learning
+# Scientific computing and quantitative research
 
-I am interested in computational models, numerical methods and reproducible scientific software — from condensed-matter physics to quantitative-finance research.
+[Quant Research Lab](https://github.com/Weini247/quant-research-showcase) presents a measured FX development case study, a bounded aggregate reproduction path and an independent fictional accounting example.
 
-## Featured public research
+The release distinguishes development evidence from independent validation and prediction scores from economic usefulness. It distributes no private engine, restricted histories or forecast sequences. No profitability or operational trading claim is made.
 
-- **[Quant Research Lab](https://github.com/Weini247/quant-research-showcase)** — public roadmap, experimental principles, and an offline synthetic-accounting demonstration. The private trading/ML platform is under development; no empirical trading results are claimed.
-- **[Differential Pumping](https://github.com/Weini247/differentielles-pumpen)** — numerical analysis and scientific Python for an experimental-physics laboratory project.
-- **[Gasjet Characterization](https://github.com/Weini247/gasjet_charakterisierung)** — scientific plotting and analysis for gasjet experiments.
-
-## Approach
-
-Mathematical models · numerical implementation · controlled validation · clear reporting of limitations.
-
-Software development and research use AI assistance where appropriate; scientific ownership, verification and accountability remain human responsibilities.
-
-*This file is a suggested profile introduction, not yet the active GitHub profile README.*
+AI assistance is disclosed; scientific judgment remains human. This file is an optional draft inside this repository, not an update to a separate profile repository.

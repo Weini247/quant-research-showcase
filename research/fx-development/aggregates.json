@@ -1,0 +1,5577 @@
+{
+  "bootstrap": {
+    "diagnostic_daily_blocks": [
+      20,
+      120
+    ],
+    "interval": "95% percentile; development diagnostic",
+    "primary_daily_block": 60,
+    "stored_resamples": 2000
+  },
+  "calibration": [
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 1,
+      "intervals": [
+        {
+          "coverage": 0.836734693878,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.855867346939,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.803571428571,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.867346938776,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.799744897959,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.866071428571,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.790816326531,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 2.523937811961,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 2.627292602849,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.364778600122,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 2.593748229345,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.439606420416,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 2.619388516071,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.385452171854,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.625,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.633928571429,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.588010204082,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.66712372449,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.58287627551,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.65943877551,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.56887755102,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.620631724064,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.680321986893,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.524610833112,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.663867265614,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.568119209108,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.679618197311,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.533986392104,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.401785714286,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.423469387755,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.359693877551,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.448979591837,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.359693877551,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.433673469388,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.350733418367,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 0.990138629946,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.024985142822,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.9329319902,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.016103119019,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.958541321064,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.025295000725,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.938543635608,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.285064868413,
+      "valid_rows": 784,
+      "variant": "chronos_grouped",
+      "wis": 0.529591472593
+    },
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 20,
+      "intervals": [
+        {
+          "coverage": 0.813775510204,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.858450255102,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.748724489796,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.853316326531,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.766581632653,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.858418367347,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.75,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 2.493276438619,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 2.592494667156,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.338754550394,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 2.563608967011,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.409198903893,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 2.590480812704,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.354248308871,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.614795918367,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.672193877551,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.568845663265,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.660714285714,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.563775510204,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.667091836735,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.552295918367,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.601436929359,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.66000933083,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.50665745977,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.646848244555,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.54678513397,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.663897474089,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.51105463432,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.419642857143,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.457908163265,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.394132653061,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.461734693878,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.382653061224,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.461734693878,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.380102040816,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 0.974812609467,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.009350461402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.91840228489,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.002312733512,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.941371555708,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.012983340483,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.919633672079,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.293646128546,
+      "valid_rows": 784,
+      "variant": "chronos_grouped",
+      "wis": 0.54839448053
+    },
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 1,
+      "intervals": [
+        {
+          "coverage": 0.822704081633,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.838010204082,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.789540816327,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.849489795918,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.785714285714,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.844387755102,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.77806122449,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 2.471930225323,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 2.604899265224,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.302807354287,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 2.541543938186,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.395700702273,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 2.578701457759,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.346087032059,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.605867346939,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.623724489796,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.570153061224,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.647959183673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.566326530612,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.641581632653,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.553539540816,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.550637254491,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.629340838596,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.450232340706,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.591972758559,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.504691099796,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.614311357743,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.47409004659,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.376275510204,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.400510204082,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.331632653061,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.422225765306,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.331632653061,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.410714285714,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.322704081633,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 0.925429931842,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 0.970541424259,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.867260684207,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.950011914853,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.899030239412,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.962006966043,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.880678052832,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.284619379399,
+      "valid_rows": 784,
+      "variant": "chronos_ungrouped",
+      "wis": 0.528658668271
+    },
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 20,
+      "intervals": [
+        {
+          "coverage": 0.799744897959,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.843112244898,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.755102040816,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.838010204082,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.755102040816,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.84056122449,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.74362244898,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 2.457845484268,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 2.581402622363,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.294110741312,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 2.521307844346,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.378114651782,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 2.557299590046,
+              "interval": "percentile95; development diagnostic only",
+              "low": 2.328962840828,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.585459183673,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.641581632653,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.545918367347,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.630102040816,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.540816326531,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.636479591837,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.533163265306,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.530356642885,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.603395845309,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.42853348209,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.569333968305,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.481270317198,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.590911661535,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.451360781909,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.400510204082,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.43112244898,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.380102040816,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.44387755102,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.363488520408,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.438775510204,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.360969387755,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 0.906140788791,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 0.94893831453,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.847137611007,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.929017191233,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.878043130543,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.941453570891,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.859654394653,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.293528979263,
+      "valid_rows": 784,
+      "variant": "chronos_ungrouped",
+      "wis": 0.547979403635
+    },
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 1,
+      "intervals": [
+        {
+          "coverage": 0.908163265306,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.934948979592,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.873724489796,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.93112244898,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.877551020408,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.932397959184,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.874968112245,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 3.104798305402,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.711734693878,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.748724489796,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.654336734694,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.747448979592,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.665816326531,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.748724489796,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.649234693878,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.880534562393,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.46556122449,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.525510204082,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.396683673469,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.510204081633,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.419642857143,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.516613520408,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.397959183673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 1.106797234673,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.291842299334,
+      "valid_rows": 784,
+      "variant": "train_quantiles",
+      "wis": 0.547018093368
+    },
+    {
+      "conditional_only": false,
+      "expected_rows": 784,
+      "horizon": 20,
+      "intervals": [
+        {
+          "coverage": 0.889030612245,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.911989795918,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.853316326531,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.914540816327,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.862244897959,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.914540816327,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.854591836735,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.8,
+          "scaled_width": 3.104798305402,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 3.104798305402,
+              "interval": "percentile95; development diagnostic only",
+              "low": 3.104798305402,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.705357142857,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.774234693878,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.642857142857,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.752551020408,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.65943877551,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.761479591837,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.650478316327,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.6,
+          "scaled_width": 1.880534562393,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.880534562393,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.880534562393,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        },
+        {
+          "coverage": 0.473214285714,
+          "coverage_intervals": {
+            "120": {
+              "high": 0.517857142857,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.438775510204,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 0.521683673469,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.432397959184,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 0.520408163265,
+              "interval": "percentile95; development diagnostic only",
+              "low": 0.423469387755,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          },
+          "nominal_coverage": 0.4,
+          "scaled_width": 1.106797234673,
+          "scaled_width_intervals": {
+            "120": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "20": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            },
+            "60": {
+              "high": 1.106797234673,
+              "interval": "percentile95; development diagnostic only",
+              "low": 1.106797234673,
+              "resamples": 2000,
+              "valid_resamples": 2000
+            }
+          }
+        }
+      ],
+      "invalid_rows": 0,
+      "pinball": 0.298050894136,
+      "valid_rows": 784,
+      "variant": "train_quantiles",
+      "wis": 0.559040122901
+    }
+  ],
+  "limitations": [
+    "Exposed development sample; three origins had appeared in an earlier technical pilot.",
+    "Latest-vintage reference rates; historical publication availability is not certified.",
+    "Foundation-model training overlap is unknown.",
+    "Currencies share EUR and market history; origins and contexts are dependent.",
+    "Static training quantiles are a limited probabilistic comparator.",
+    "No paired WIS significance test and no new hypothesis test.",
+    "Public aggregates cannot rerun inference or reconstruct private forecasts."
+  ],
+  "native_quantile_crossings": 0,
+  "paired": [
+    {
+      "contrast": "ar1-minus-zero",
+      "horizon": 1,
+      "intervals": {
+        "120": {
+          "high": 0.002630114519,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.000729135347,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.003339506708,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001539588536,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.003020788154,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001310447173,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": 0.000994865884,
+      "n_origins": 98
+    },
+    {
+      "contrast": "ar1-minus-zero",
+      "horizon": 20,
+      "intervals": {
+        "120": {
+          "high": 0.000555494148,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001022223666,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.000735390612,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001054613072,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.00059134408,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001245743051,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": -0.0001713638,
+      "n_origins": 98
+    },
+    {
+      "contrast": "ar20_ridge-minus-zero",
+      "horizon": 1,
+      "intervals": {
+        "120": {
+          "high": 0.002784401626,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003446067548,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.003357305906,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003866232413,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.003078541858,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003483580438,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": -0.000324054938,
+      "n_origins": 98
+    },
+    {
+      "contrast": "ar20_ridge-minus-zero",
+      "horizon": 20,
+      "intervals": {
+        "120": {
+          "high": 0.002421943609,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002472733998,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.002877266682,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002916295322,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.002805241509,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003003727627,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": 0.000234746753,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_grouped-minus-zero",
+      "horizon": 1,
+      "intervals": {
+        "120": {
+          "high": 0.003564658289,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.000519881733,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.004634270389,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001892359541,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.003870933292,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001077752291,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": 0.002890011605,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_grouped-minus-zero",
+      "horizon": 20,
+      "intervals": {
+        "120": {
+          "high": 0.002414029457,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003250456619,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.001850932223,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.004760647105,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.002472040957,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003476405822,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": -0.001778481651,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_ungrouped-minus-zero",
+      "horizon": 1,
+      "intervals": {
+        "120": {
+          "high": 0.003396278039,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.000808146768,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.004671441916,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001082999994,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.00403695419,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.000947389526,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": 0.002392451501,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_ungrouped-minus-zero",
+      "horizon": 20,
+      "intervals": {
+        "120": {
+          "high": 0.003317237993,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.001907466183,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.002058079276,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.003450845086,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.003089984045,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002651792361,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": -0.000911142819,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_grouped-minus-chronos_ungrouped",
+      "horizon": 1,
+      "intervals": {
+        "120": {
+          "high": 0.001589151684,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.00168526711,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.001690056216,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.00263981616,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.001578799261,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002132926293,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": 0.000497560104,
+      "n_origins": 98
+    },
+    {
+      "contrast": "chronos_grouped-minus-chronos_ungrouped",
+      "horizon": 20,
+      "intervals": {
+        "120": {
+          "high": 0.000531917456,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.00262260538,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "20": {
+          "high": 0.001101240694,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002768783421,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        },
+        "60": {
+          "high": 0.00167266649,
+          "interval": "percentile95; development diagnostic only",
+          "low": -0.002838515651,
+          "resamples": 2000,
+          "valid_resamples": 2000
+        }
+      },
+      "mean": -0.000867338832,
+      "n_origins": 98
+    }
+  ],
+  "performance": [
+    {
+      "failure_rate": 0.0,
+      "horizon": 1,
+      "n": 784,
+      "raw_mae": 28.132576968649,
+      "raw_mse": 1312.080015273572,
+      "scaled_mae": 0.731173775011,
+      "variant": "zero"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 20,
+      "n": 784,
+      "raw_mae": 28.873128964229,
+      "raw_mse": 1435.577960496375,
+      "scaled_mae": 0.74337379488,
+      "variant": "zero"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 1,
+      "n": 784,
+      "raw_mae": 28.176718832757,
+      "raw_mse": 1315.769002723844,
+      "scaled_mae": 0.732168640895,
+      "variant": "ar1"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 20,
+      "n": 784,
+      "raw_mae": 28.871564979097,
+      "raw_mse": 1434.838621312587,
+      "scaled_mae": 0.743202431079,
+      "variant": "ar1"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 1,
+      "n": 784,
+      "raw_mae": 28.11838304438,
+      "raw_mse": 1313.716960325683,
+      "scaled_mae": 0.730849720073,
+      "variant": "ar20_ridge"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 20,
+      "n": 784,
+      "raw_mae": 28.905910183044,
+      "raw_mse": 1436.515781388345,
+      "scaled_mae": 0.743608541632,
+      "variant": "ar20_ridge"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 1,
+      "n": 784,
+      "raw_mae": 28.258360574601,
+      "raw_mse": 1315.453714794522,
+      "scaled_mae": 0.734063786616,
+      "variant": "chronos_grouped"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 20,
+      "n": 784,
+      "raw_mae": 28.837393840692,
+      "raw_mse": 1439.633897963244,
+      "scaled_mae": 0.741595313228,
+      "variant": "chronos_grouped"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 1,
+      "n": 784,
+      "raw_mae": 28.228412126764,
+      "raw_mse": 1313.424862683675,
+      "scaled_mae": 0.733566226512,
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "failure_rate": 0.0,
+      "horizon": 20,
+      "n": 784,
+      "raw_mae": 28.872092169898,
+      "raw_mse": 1440.300238216809,
+      "scaled_mae": 0.74246265206,
+      "variant": "chronos_ungrouped"
+    }
+  ],
+  "publication_status": "RELEASE_V2_1",
+  "quarterly_landscape": [
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.008616884685,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.004385122794,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.008496077125,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.003336374573,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.005058480023,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.005342034193,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.005909932067,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.001725867453,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.002085853775,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.000285602556,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.000563309939,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.00105744024,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.000826925266,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 2.2028984e-05,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.002650290714,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.003614793759,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.012835137085,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.016963744066,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.00607946957,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.049756827019,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.035458365794,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.011481864685,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.00370204907,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.021105558571,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.01075386668,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.003128965399,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.003069836728,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.015508660522,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.027188507688,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.012412953134,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.003647574734,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.029291744316,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.001317739889,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -3.109631e-05,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.00328251929,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.001005675922,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.002765815473,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.000484561412,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.003064887232,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.000417705095,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.005384009799,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000984727711,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.007011040764,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.002060874928,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000829796483,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.002210650247,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000133199191,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000912039498,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.003725911319,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.002781376479,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.009237448579,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.00102729224,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.000174230439,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.006582641313,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.002055613296,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.005141200077,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.000237819665,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.000478207172,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.00013424049,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.000715319144,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.001196428912,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.000329561652,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.000811425802,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.001147418231,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.002021029658,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.000673676553,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.000673676553,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.001459632531,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.000673676553,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.001459632531,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.0,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.004378897593,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.000581181895,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.002905909475,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.000581181895,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.001259227439,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.000581181895,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.0,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.00215867561,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.0,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.016015920912,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.002287988702,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.006863966105,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.009914617707,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.002287988702,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.004957308854,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.012747365624,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.014871926561,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.000929522138,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.002788566414,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.000929522138,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.006041893897,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.00464761069,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.002013964632,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.001726255399,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.006041893897,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.000432314442,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 8.6462888e-05,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.000605240218,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.000187336258,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 8.6462888e-05,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.000187336258,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.000321147871,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.000281004387,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.002757374364,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.002757374364,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.001654424618,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.002389724449,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.001654424618,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.0,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.002048335242,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.001792293337,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001701892171,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001215637265,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.000729382359,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001053552296,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.001215637265,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001053552296,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001806089651,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.001580328445,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000288410895,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000173046537,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000288410895,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000124978054,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.000173046537,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.000124978054,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000107124047,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar1"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.0,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar1"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.015527332849,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.01167835264,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.001708291533,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.006956456869,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.009098796683,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.003416642098,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.000166112607,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.006357469837,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.003496489083,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.007945700033,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.010265948626,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.002489319947,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.000118004776,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.009913872012,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.001413515675,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.001389960373,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.025705265127,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.014467996248,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.023258397003,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.012115862826,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.020816069278,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.020148829459,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.011754807049,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.040068239446,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.015856282742,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.002488511409,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.006575352141,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.036152722963,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.027085151509,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.030320754481,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.007355984535,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.059442024101,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.005559676473,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.017564687035,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.008049820096,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.015564906179,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.004235244277,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.001017041079,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.011743186411,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.004644337652,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000633955182,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.004044343658,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.004200732197,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.011456216073,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.006263828701,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.001788923952,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.007795857268,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.020672415987,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.003088606669,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.011160101874,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.032448585281,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.01974544488,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.019719702214,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.005933418586,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.011493737304,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.000539909749,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.001919773469,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.007202867973,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.001240609801,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.008916710503,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.01705599956,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.010557960386,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.007256144431,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.004078227531,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.012068013149,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.0059768104,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.003213608929,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.012120113971,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.001820693543,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.001285359214,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.004042261754,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.016124958896,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.00106600556,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.003656779743,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.007693146281,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.027704869549,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.009452621106,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.009673361664,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.001111431156,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.003742896198,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.010772527811,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.006622467301,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.013594841513,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.006913677125,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.004265021885,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.033629628181,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.006486700726,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.005886523656,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.001394224747,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.013828915362,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.009210559772,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.004741523971,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.007275856756,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.004508881594,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.026985836869,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.008291344723,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.01469895966,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.001942804679,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.012393437519,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.014773456299,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.000754775333,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.002346928862,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.009838855334,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.002039665374,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.001791744083,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.013871581043,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.024943770795,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.001277802991,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.013595822399,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.014198658793,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.000753163841,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.006769329197,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.003750108563,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.012033959582,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.01749755571,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.002775293299,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.009884232645,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.001494423104,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.006787103992,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.010186041221,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.007420011236,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.002787975221,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.004958374072,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.00802379539,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.012556784373,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.002088431751,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.009614532079,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.00448227325,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "ar20_ridge"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.000806643054,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.007589899648,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.004685761264,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.009322627448,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.007156124912,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.008508259651,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.015156944681,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.010451629176,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.018921704981,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.009413032148,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.001420754975,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.007054896618,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.003888698008,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.004917711378,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.009597555485,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.007496202365,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.019219179136,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.014445447578,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.00258143529,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.007241557818,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.02208334709,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.002024013698,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.004034389343,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.000581732485,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.034724618162,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.013897546639,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.003358431447,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.004797111062,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.00962356743,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.002431469426,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.008526378378,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.005472126475,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.02288266651,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.00537330514,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.016157622509,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.010624674615,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.010801976547,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.007636822411,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.003638027835,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.019572274257,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.008849713869,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.00369916276,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.012388517364,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.002944984939,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.010320091263,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.002286044415,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.00873281381,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.03674568521,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.004469112421,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.021604386373,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.044491228862,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.003837191189,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.019517477315,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.004898133688,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.027351679546,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.028956714552,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.009430216195,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.003810973838,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.002116924223,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.000922255917,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.008061776368,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": 0.004461911429,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.006322498932,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.009242273285,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.010842768332,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.009270512499,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.00353898065,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.001425957928,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.005906073284,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.005962268873,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.002590895431,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.003256270546,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.008110203995,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.009711581961,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.00090358657,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.003020893239,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.001770290045,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.004280878406,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.000929001561,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.000806003844,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.022154618628,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.004572508713,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.001932093157,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.012888628834,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.00491454309,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.003684921035,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.002984567811,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.024848607834,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.003527740733,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.006702879587,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.001039529076,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.003239601074,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.006752917185,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.003760918936,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.002860397649,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.00880238408,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.011885662695,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.003866851029,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.031839189764,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.006231856377,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.001480392395,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -5.4044571e-05,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.001064444426,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.02060460113,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.007331935617,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.004384883608,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.006022500018,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.009822196017,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.005958656136,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.002660388127,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.0024093162,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.001793387175,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.018845176367,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.026394193849,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.008592637399,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.010159429057,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.032264564186,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.011227245557,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.041809069791,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.032951453235,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.007190520374,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.007936451727,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.000898718261,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.003225525298,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.003558753703,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.002412652849,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.005468865258,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.006990547059,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_grouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.001103646046,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.001601005904,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.005417863122,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.009801093334,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": -0.001803074892,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.006491118641,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.011857170612,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 1,
+      "mean": 0.001503461623,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.007887880246,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.007627056124,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.002912833928,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.004820110432,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.000291660571,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.001838655948,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": 0.012463010848,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 1,
+      "mean": -0.000494026971,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.001925209824,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.007712655486,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.00369620839,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.014472920137,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.011389561571,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": 0.0230086407,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.00684162522,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 1,
+      "mean": -0.005218155915,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.016886578798,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.000793014008,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.000365890133,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.001887712317,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": -0.001441080553,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.010489900053,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.001544776905,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 1,
+      "mean": 0.011874256947,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.033863641035,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.00524134719,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.015686863019,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.007171376764,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.009657940326,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.019181555913,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": 0.005254778479,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 1,
+      "mean": -0.001337287053,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.015741390881,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.002636660893,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.009933940995,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.002879217422,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": 0.000265395485,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.002242377028,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -5.619467e-06,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 1,
+      "mean": -0.003282653168,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.001796334122,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.015722336104,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.041780989044,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.00894401983,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.028567521905,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.02061386779,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": -0.022664089022,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 1,
+      "mean": 0.046804603888,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.014115517529,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.001249603712,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.002417619698,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.004354230089,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.009111451558,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.011859219521,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.00178992389,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 1,
+      "mean": -0.010141454637,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.009866204972,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.005025877617,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 2.8528631e-05,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.000182890488,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": -0.002240364511,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.00946094821,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.000127005657,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "AUD",
+      "horizon": 20,
+      "mean": 0.001035472844,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.004593121174,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.013239337667,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.001630814137,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.00683276543,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.002056989819,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.001282608486,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": -0.00327420095,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CAD",
+      "horizon": 20,
+      "mean": 0.001681801526,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.011441798737,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.002377802649,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.007089513999,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.007654508731,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.00126138917,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": 0.012223423226,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.002400118458,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "CHF",
+      "horizon": 20,
+      "mean": -0.013969688909,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.022485736758,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": 0.008745757576,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.000870481707,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.002434932161,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.0108902036,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.007317725957,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.00378112638,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "GBP",
+      "horizon": 20,
+      "mean": -0.011247843213,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.01454048574,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.00500490644,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.032743404978,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.011284301368,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.007923863828,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.001898188222,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": 0.004728758042,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "JPY",
+      "horizon": 20,
+      "mean": -0.004965033382,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.016807954662,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.018797014052,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.007627237445,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.000474703299,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.001721210778,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.004728667438,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": 0.012307177963,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "NOK",
+      "horizon": 20,
+      "mean": -0.001319179723,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.017879806645,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.026590789167,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.010114912803,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.00992162515,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": 0.02840943176,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.005001823843,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.038908571803,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "SEK",
+      "horizon": 20,
+      "mean": -0.039365086704,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.00405619623,
+      "n": 13,
+      "quarter": "2018 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.001385676245,
+      "n": 13,
+      "quarter": "2018 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.007635486885,
+      "n": 13,
+      "quarter": "2018 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.000124132338,
+      "n": 12,
+      "quarter": "2018 Q4",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.007880699892,
+      "n": 13,
+      "quarter": "2019 Q1",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": 0.011957698696,
+      "n": 12,
+      "quarter": "2019 Q2",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.006972914429,
+      "n": 14,
+      "quarter": "2019 Q3",
+      "variant": "chronos_ungrouped"
+    },
+    {
+      "asset": "USD",
+      "horizon": 20,
+      "mean": -0.001748844516,
+      "n": 8,
+      "quarter": "2019 Q4",
+      "variant": "chronos_ungrouped"
+    }
+  ],
+  "release_scope": "FX_DEVELOPMENT_AGGREGATES_ONLY",
+  "resources": [
+    {
+      "origin_count": 98,
+      "peak_rss_bytes": 58105856,
+      "status": "COMPLETE",
+      "variant_id": "zero",
+      "wall_seconds": 18.677231800044
+    },
+    {
+      "origin_count": 98,
+      "peak_rss_bytes": 57585664,
+      "status": "COMPLETE",
+      "variant_id": "ar1",
+      "wall_seconds": 19.747965499992
+    },
+    {
+      "origin_count": 98,
+      "peak_rss_bytes": 58146816,
+      "status": "COMPLETE",
+      "variant_id": "ar20_ridge",
+      "wall_seconds": 21.348865299951
+    },
+    {
+      "origin_count": 98,
+      "peak_rss_bytes": 854466560,
+      "status": "COMPLETE",
+      "variant_id": "chronos_grouped",
+      "wall_seconds": 780.316830100026
+    },
+    {
+      "origin_count": 98,
+      "peak_rss_bytes": 853229568,
+      "status": "COMPLETE",
+      "variant_id": "chronos_ungrouped",
+      "wall_seconds": 1048.110420100158
+    }
+  ],
+  "rounding": {
+    "display_effects": 6,
+    "display_percentages": 1,
+    "display_performance": 6,
+    "stored_decimals": 12
+  },
+  "schema_version": 1,
+  "study": {
+    "assets": [
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF",
+      "CAD",
+      "AUD",
+      "SEK",
+      "NOK"
+    ],
+    "development_years": [
+      2018,
+      2019
+    ],
+    "horizons": [
+      1,
+      20
+    ],
+    "independent_validation": false,
+    "main_jobs": 490,
+    "origins": 98,
+    "primary_horizon": 1,
+    "trading_validation": false,
+    "training_years": [
+      1999,
+      2017
+    ],
+    "variants": [
+      "zero",
+      "ar1",
+      "ar20_ridge",
+      "chronos_grouped",
+      "chronos_ungrouped"
+    ]
+  }
+}

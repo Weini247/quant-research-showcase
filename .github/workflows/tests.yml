@@ -1,4 +1,4 @@
-name: Synthetic demo tests
+name: Public research verification
 on:
   push:
   pull_request:
@@ -12,7 +12,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run offline deterministic tests
+      - name: Verify exact public file manifest
+        run: python verify_public_manifest.py
+      - name: Run aggregate consistency tests
+        run: python -m unittest discover -s research/fx-development -p 'test_*.py' -v
+      - name: Run synthetic accounting tests
         run: python -m unittest discover -s examples/synthetic_accounting -p 'test_*.py' -v
-      - name: Run offline demonstration
+      - name: Run fictional demonstration
         run: python examples/synthetic_accounting/demo.py

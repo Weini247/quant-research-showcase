@@ -1,32 +1,9 @@
-# Architecture · Public Overview
+# Public research view
 
-The goal is to separate the *research computation* from the *research user interface*.
+![Conceptual evidence cycle](../assets/research-cycle.svg)
 
-```mermaid
-flowchart TB
-    user[Researcher] --> ui[ENNEAD Research Workbench\nplanned GUI integration]
-    ui --> controller[Experiment & Artifact Interface\nplanned]
-    controller --> py[Standalone Python Quant Core\nplanned]
-    py --> measure[Measurement & Data Validation]
-    py --> accounting[Accounting & Cost Checks]
-    py --> models[Statistical / ML Models]
-    py --> validation[Research Validation]
-    measure --> store[(Permitted data & run artifacts)]
-    accounting --> store
-    models --> store
-    validation --> store
-```
+The illustration is an abstract scientific workflow, not private deployment topology. This repository contains a static FX case study, selected aggregates, an independent plot renderer and fictional accounting software. It does not distribute the private research engine.
 
-This is **target architecture, not a diagram of shipped software**.
+The evidence chain distinguishes source integrity, transformations, frozen comparisons, measured forecasts, independent recalculation and proportional conclusions. Public reproduction begins at aggregates and has a narrower boundary than the private audit chain.
 
-## Architectural principles
-
-- **Independence:** numerical code should run, test and reproduce without the graphical application.
-- **Explicit evidence:** data provenance, experiment configuration and evaluation boundaries must be inspectable.
-- **Proportional complexity:** avoid building production/live infrastructure for a measurement pilot.
-- **Modular trust boundary:** confidential datasets, internal hypotheses, keys and potentially proprietary models are never imported into this public repository.
-- **Stage discipline:** exploratory diagnostics are not confirmatory evidence of economic value.
-
-## ENNEAD relationship
-
-ENNEAD is envisioned as a wider personal research/workspace environment. The trading integration is **planned**; the private ENNEAD application's complete code is not part of this showcase. The public site may eventually feature real sanitized screenshots when the corresponding features exist.
+Workbench integration and adaptive research capability remain aspirations. No autonomous strategy selection, trading system or economic-performance claim is presented as delivered functionality.

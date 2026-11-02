@@ -1,9 +1,14 @@
-# Verification Record · 2026-10-19
+# Verification: release 2.1
 
-- Offline demonstrator: **12/12 unit tests passed locally** with Python standard-library `unittest`.
-- CLI example: executed successfully; 4-for-1 split and dividend payment preserve the relevant invariants.
-- JavaScript: syntax checked if Node.js was available during packaging.
-- Landing page: static HTML structure checked for unique IDs, resolvable internal anchors and 9 roadmap stage buttons.
-- Repository: intended for separate public publication; no private project packs, commercial market data or API credentials were added.
+The public release checks cover file integrity, aggregate consistency and figure composition, not independent validation of the empirical forecasts.
 
-This is not a security audit, browser-compatibility certification, cross-platform QA or execution of the project's private P1 research contract. The site remains a design showcase, not evidence of deployed trading software.
+- Thirteen FX aggregate/release tests and twelve unchanged synthetic accounting tests are executed locally; the fictional demonstration is also run.
+- All twelve SVG/PNG figure files are regenerated twice in an isolated public-only directory and compared byte-for-byte in the documented environment.
+- The public manifest verifies the exact release file set and SHA-256 values, excluding itself. Git metadata and generated Python caches are outside that file set.
+- Landing and research pages are exercised at desktop, tablet and narrow mobile widths, including H1/H20 mouse/keyboard operation, image loading, local links and static fallback.
+- F2 is inspected directly as an SVG and checked for its nine embedded PNG elements and vector text. No external image is required.
+- Numerical aggregate values, figure files and the renderer are unchanged from the reviewed V2 measurements; only release metadata, scope and documentation are corrected.
+
+Local results do not imply that GitHub CI or Pages deployment has completed. Those statuses must be checked separately for the public release commit. Rendering checks are not a comprehensive accessibility or device certification. Public figure reproduction is not private empirical inference or a new scientific sample.
+
+See [reproduction](REPRODUCIBILITY.md), [methods](METHODS.md), [rights](DATA_LICENSING.md) and [publishing](PUBLISHING.md). No new open-source licence is assigned.

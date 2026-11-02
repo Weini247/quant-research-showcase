@@ -1,12 +1,11 @@
-# Public Milestones
+# Releases
 
-| Label | Date | Evidence | Scope |
-|---|---|---|---|
-| Research architecture | 2026-09 | Design baseline produced | Conceptual research architecture only |
-| P1 diagnostic scope | 2026-09 | F01 accepted | AAPL/MSFT, daily, 2020 H2; no market data run |
-| Data-source admissibility | 2026-10 | F02 conditionally passed | Preferred route identified; provider/account verification pending |
-| Pilot contract | 2026-10 | F03 conditionally passed | Declared checks and fixtures, not executed |
-| Provider evidence review | 2026-10 | Partial | Access, field semantics and retention remain unresolved |
-| Public showcase scaffold | 2026-10 | HTML landing, docs, offline demo | Independent public presentation only |
+## 2.1 — FX development research
 
-These statements reflect reported project artifacts and do not certify empirical findings or software not yet executed. Keep release entries factual and update after each actual milestone.
+- Selected ECB-derived development aggregates for 98 registered 2018–2019 origins, eight currencies and five benchmark variants.
+- Six original figure pairs, an H1/H20 comparison and an independent aggregate reproduction path.
+- H1 explicitly primary, H20 secondary; eight displayed model contrasts are not eight primary tests.
+- F2 accurately documented as a self-contained hybrid SVG with embedded raster heatmaps and colour bar.
+- EODHD-derived qualitative case study, results and empirical graphics excluded.
+- No scientific measurement changes, additional hypothesis tests or model inference.
+- Existing fictional accounting example retained; no new software licence assigned.

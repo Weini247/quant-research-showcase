@@ -1,17 +1,14 @@
-# Research Principles
+# Research principles
 
-**Problem:** Predictive success on historical financial data does not necessarily imply a viable trading policy. Information leakage, repeated searches, regime changes, costs and execution assumptions can invalidate attractive paper results.
+1. Specify the estimand and distinguish development evidence from independent validation.
+2. Keep the primary horizon separate from secondary diagnostics.
+3. Treat units, chronological alignment and historical availability as scientific assumptions.
+4. Compare learned methods with serious simple baselines.
+5. Preserve negative and inconclusive findings; uncertainty is not evidence of equivalence.
+6. Respect temporal and shared-market dependence.
+7. Distinguish engineering reproducibility from new scientific evidence.
+8. Separate predictive scores from economic utility and trading validation.
+9. Publish only the specifically reviewed data and intellectual-property scope.
+10. Permit simpler methods and stopping rather than treating complexity as an objective.
 
-**Principles:**
-
-1. Specify the research **claim** and **estimand** before selecting a test.
-2. Separate exploratory searches from later confirmatory evaluation.
-3. Treat data timestamps, identifiers, adjustments, corporate actions and availability as scientific assumptions to verify.
-4. Compare complex methods with appropriate, reproducible simple baselines.
-5. Record meaningful candidate changes and exposure to test outcomes, without logging irrelevant work as statistical trials.
-6. Model trade accounting, costs and implementation at the maturity appropriate to the claim.
-7. Report failed tests, caveats and unresolved uncertainties instead of optimizing a narrative of success.
-
-**Evidence categories:** planned → implemented → tested → empirically examined → independently or externally validated. These are not interchangeable.
-
-**Current maturity:** Research architecture and pilot design have been produced. No algorithmic trading performance is supported. The proprietary full research documents, detailed strategy candidates and any licensed input data are not publicly distributed.
+[FX development study](../fx-development.html) · [Methods](METHODS.md)
